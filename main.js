@@ -87,7 +87,6 @@ async function useSiteID(siteID)
       
                         [yyyy,mm,dd,hh,mi,sec] = dateStr.split(/[/:\-T]/)
       
-
                         let minutesAfterSliced = mi;
 
                         let sliced = calculate(`${hh}:${mi}:${sec}`);
